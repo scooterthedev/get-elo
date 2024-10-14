@@ -18,6 +18,11 @@
       "methods": ["GET"]
     },
     {
+      "src": "/get-elo/*",
+      "dest": "/server.js",
+      "methods": ["GET"]
+    },
+    {
       "src": "/get-elo",
       "dest": "/server.js",
       "methods": ["POST"]
