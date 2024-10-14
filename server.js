@@ -3,7 +3,7 @@ const fetch = require("node-fetch");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-
+ 
 // Fetch eloRate, rank, and win-loss record from the API and return it as plain text
 app.get("/get-elo/:username", async (req, res) => {
   let { username } = req.params;
